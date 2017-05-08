@@ -13,6 +13,12 @@ $(function () {
 	$('body').delay(550).css({
 		'overflow': 'visible'
 	});
+
+	$('#affix-navbar').affix({
+		offset: {
+			top: $('#affix-navbar').offset().top
+		}
+	});
 });
 
 $(document).ready(function () {

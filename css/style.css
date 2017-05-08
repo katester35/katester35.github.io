@@ -14,6 +14,32 @@ http://www.andreagalanti.it
 	font-style: normal;
 }
 
+#affix-navbar-wrapper {
+	min-height: 53px;
+}
+
+#affix-navbar {
+	z-index: 98;
+}
+
+#affix-navbar .navbar {
+	border-radius: 0;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix-top {
+	width: 100%;
+}
+
+.affix-bottom {
+	position: absolute;
+	width: 100%;
+}
+
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 
